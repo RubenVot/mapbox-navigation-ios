@@ -47,7 +47,7 @@ Pod::Spec.new do |s|
   s.dependency "Mapbox-iOS-SDK", "~> 5.6"
   s.dependency "Solar", "~> 2.1"
   s.dependency "MapboxSpeech", "~> 0.3.0"
-
+  s.frameworks = 'CoreLocation'
   s.swift_version = "5.0"
 
 end
